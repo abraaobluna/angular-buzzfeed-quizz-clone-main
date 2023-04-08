@@ -1,55 +1,67 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual é Titan você seria ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Seu pensamento é mais ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Pacional", "alias":"D"},
+        {"id": 2, "name":"Lógico", "alias":"E"},
+        {"id": 3, "name":"Metodico", "alias":"A"},
+        {"id": 4, "name":"Indiferente", "alias":"B"},
+        {"id": 5, "name":"Introvertido", "alias":"C"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual profissão você seguiria ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Acrobata", "alias":"A"},
+        {"id": 2, "name":"Ator(Atriz)", "alias":"D"},
+        {"id": 3, "name":"Sei lá", "alias":"B"},
+        {"id": 4, "name":"Engenheiro(a)", "alias":"E"},
+        {"id": 5, "name":"Cultista", "alias":"C"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Como voce lida com relacionamentos ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Se eu gostar, eu fico", "alias":"B"},
+        {"id": 2, "name":"Fiel até que se prove o contrario", "alias":"A"},
+        {"id": 3, "name":"Seriamente e intenso", "alias":"E"},
+        {"id": 4, "name":"Fico caidinho(a)", "alias":"D"},
+        {"id": 5, "name":"Se me trair eu te mato!", "alias":"C"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual sua cor favorita ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Amarelo", "alias":"A"},
+        {"id": 2, "name":"Roxo", "alias":"B"},
+        {"id": 3, "name":"Azul", "alias":"E"},
+        {"id": 4, "name":"Verde", "alias":"D"},
+        {"id": 5, "name":"Preto", "alias":"C"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "O que você faria com alguém que matou seu amor ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Torturaria de todas as formas possíveis", "alias":"C"},
+        {"id": 2, "name":"Faria a justiça cair sobre ele", "alias":"E"},
+        {"id": 3, "name":"Não pararia até o matar", "alias":"D"},
+        {"id": 4, "name":"Transformaria em Pó", "alias":"B"},
+        {"id": 5, "name":"O faria sentir punhos e lagrimas", "alias":"A"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você seria o Robin!",
+    "B": "Você seria a Estelar!",
+    "C": "Você seria a Ravena!",
+    "D": "Você seria o Mutano!",
+    "E": "Você seria o Cyborg"
   }
 }
