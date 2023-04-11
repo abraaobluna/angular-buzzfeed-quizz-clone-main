@@ -23,6 +23,12 @@
 
   <div *ngIf=finished class="quizz_results">
     <h1>O Seu resultado é:</h1>
-    <p>{{answerSelected}}</p>
+    <h2>{{answerSelected}}</h2>
   </div>
+
+  <button
+  ng-click="previousStep()" class="back-button"
+  ng-if="answers.length > 0">Voltar
+</button>
+
 </div>

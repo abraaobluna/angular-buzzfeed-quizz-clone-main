@@ -47,6 +47,11 @@ export class QuizzComponent implements OnInit {
 
   }
 
+  previousStep(){
+    this.questionIndex-=1
+    this.questionSelected = this.questions[this.questionIndex]
+  }
+
   async nextStep(){
     this.questionIndex+=1
 
@@ -74,5 +79,11 @@ export class QuizzComponent implements OnInit {
 
     return result
   }
-
+  restartQuiz(){
+    this.answers = []
+    this.questionIndex = 0
+    this.questionSelected = this.questions[this.questionIndex]
+    this.answerSelected = ""
+    this.finished = false
+  }
 }
