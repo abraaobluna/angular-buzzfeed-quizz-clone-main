@@ -11,7 +11,7 @@
 
   <div *ngIf=!finished class="quizz_options">
 
-    <button
+  <button
       *ngFor="let option of questionSelected.options; let i = index"
       (click)="playerChoose(option.alias)"
       class="btn-option"
@@ -21,14 +21,17 @@
 
   </div>
 
+<button
+  *ngIf="answers.length > 0 && !finished"
+  class="btn-voltar"
+  (click)="previousStep()"
+>
+  Voltar
+</button>
+
   <div *ngIf=finished class="quizz_results">
     <h1>O Seu resultado é:</h1>
     <h2>{{answerSelected}}</h2>
+    <button class="btn-recomecar" (click)="restartQuiz()">Recomeçar</button>
   </div>
-
-  <button
-  ng-click="previousStep()" class="back-button"
-  ng-if="answers.length > 0">Voltar
-</button>
-
 </div>
