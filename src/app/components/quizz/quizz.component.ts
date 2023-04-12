@@ -46,7 +46,7 @@ export class QuizzComponent implements OnInit {
     this.nextStep()
 
   }
-
+//voltar
   previousStep(){
     this.questionIndex-=1
     this.questionSelected = this.questions[this.questionIndex]
@@ -79,6 +79,7 @@ export class QuizzComponent implements OnInit {
 
     return result
   }
+  //Recomeçar
   restartQuiz(){
     this.answers = []
     this.questionIndex = 0

@@ -22,12 +22,13 @@
   </div>
 
 <button
-  *ngIf="answers.length > 0 && !finished"
+  *ngIf="answers.length > 0 && !finished && questionIndex > 0"
   class="btn-voltar"
   (click)="previousStep()"
 >
   Voltar
 </button>
+
 
   <div *ngIf=finished class="quizz_results">
     <h1>O Seu resultado é:</h1>
